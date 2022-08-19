@@ -45,9 +45,9 @@
                     </div>
                 @endif
 
-                <div style="background: #fd961a; width: 100%; padding: 10px">
+                <div style="background: #0B65C6; width: 100%; padding: 10px">
                     <center>
-                        <a href="/">
+                        <a href="{{ route('index') }}">
                             <img src="{{ asset('assets/images/logo.png') }}" width="200px">
                         </a>
                     </center>
@@ -89,11 +89,11 @@
                 </div>
 
                 <div class="container-login100-form-btn m-t-17">
-                    <button name="login" style='background: #fd961a' type="submit" class="login100-form-btn">
+                    <button name="login" style='background: #0B65C6' type="submit" class="login100-form-btn">
                         Login
                     </button>
                 </div>
-                {{--                <center>	Don't have an Account? <a href="{{ route('register') }}">Register</a></center>--}}
+                <center>	Don't have an Account? <a href="{{ route('register') }}">Register</a></center>
             </form>
         </div>
     </div>
@@ -103,21 +103,22 @@
 <div id="dropDownSelect1"></div>
 
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="login-assets/vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/animsition/js/animsition.min.js"></script>
+<script src="login-assets/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/bootstrap/js/popper.js"></script>
-<script src="lhttps://unitrustinvest.com/ogin-assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+<script src="login-assets/vendor/bootstrap/js/popper.js"></script>
+<script src="login-assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/select2/select2.min.js"></script>
+<script src="login-assets/vendor/select2/select2.min.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/daterangepicker/moment.min.js"></script>
-<script src="https://unitrustinvest.com/login-assets/vendor/daterangepicker/daterangepicker.js"></script>
+<script src="login-assets/vendor/daterangepicker/moment.min.js"></script>
+<script src="login-assets/vendor/daterangepicker/daterangepicker.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/vendor/countdowntime/countdowntime.js"></script>
+<script src="login-assets/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
-<script src="https://unitrustinvest.com/login-assets/js/main.js"></script>
+<script src="login-assets/js/main.js"></script>
+<script src="https://unitrustinvest.com/LIVECHAT.js" async></script>
 
 <style>
     .cus-float{
@@ -138,6 +139,5 @@
 </style>
 
 
-</a>
 </body>
 </html>
