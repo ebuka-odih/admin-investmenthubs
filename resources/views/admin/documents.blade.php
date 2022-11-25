@@ -83,7 +83,7 @@
 {{--                                    <a href="" class="btn btn-primary btn-sm btn-icon " style="margin: 3px"> VIEW</a>--}}
                                 </td>
                                 <td>
-                                    {!! $item->user->status() !!}
+                                    {!! optional($item->user)->status() !!}
                                 </td>
 
                                 <td>
